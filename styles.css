@@ -19,6 +19,7 @@ body{
     /* border: 2px solid green; */
     margin: 0 auto;
     margin-top: 50px;
+    /* margin-bottom: 120px; */
     background-image: url('./images/banner-image.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -92,4 +93,70 @@ body{
 .section-new-year-img img{
     height: 100%;
     width: 100%;
+}
+
+/* section three container styles */
+.section-three-container{
+    width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-image: url(./images/party.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode:overlay ;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+   
+}
+.section-three-content{
+    width: 50%;
+    /* height: 600px; */
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 30px;
+}
+
+.section-three-content h2{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.section-three-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-bottom: 45px;
+}
+/* TODO: can't move the text to left */
+#section-three-span{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    /* margin-left:80px; */
+}
+    
+.section-three-image{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.section-three-image img{
+    width: 349.16px;
+height: 464.65px;
 }
