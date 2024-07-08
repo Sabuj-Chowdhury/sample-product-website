@@ -476,6 +476,7 @@ height: 464.65px;
     /* border: 2 px solid black; */
     /* margin: 0 auto; */
     display: flex;
+    
 
 }
 .text-input{
@@ -491,6 +492,7 @@ height: 464.65px;
     background: rgb(255, 0, 0);
     width: 210px;
     height: 72px;
+    color: white;
 }
 
 
