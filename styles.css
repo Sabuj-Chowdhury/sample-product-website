@@ -289,7 +289,7 @@ height: 464.65px;
     border-radius: 50%;
 } */
 
-
+/* ISSUE: text alignment */
 .section-five-content-two{
     width: 33%;
     height: 463px;
@@ -298,6 +298,7 @@ height: 464.65px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .section-five-content-two h2{
     color: rgb(255, 0, 0);
