@@ -218,8 +218,6 @@ height: 464.65px;
 
 /* coming soon section styles  */
 
-/* issues with text alignment */
-/* image gap issue */
 
 .coming-soon-container{
     margin-top: 120px;
@@ -239,8 +237,6 @@ height: 464.65px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 .section-five-content-one h5{
     color: rgb(255, 0, 0);
@@ -268,7 +264,7 @@ height: 464.65px;
     /* text-align: left; */
 }
 
-
+/* FIXED */
 /* ISSUE: can' make distance between the border and image */
 .section-five-img-container{
      
@@ -281,21 +277,10 @@ height: 464.65px;
     background-repeat: no-repeat;
     background-position: center;
     background-size:auto;
-    
-    /* gap: 10px; */
-    /* padding: 20px; */
-    
 
 }
-/* .section-five-img{
-    box-sizing: border-box;
-    background-image: url('./images/midnight-party.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-} */
 
+/* FIXED */
 /* ISSUE: text alignment */
 .section-five-content-two{
     width: 33%;
@@ -335,6 +320,7 @@ height: 464.65px;
     /* border: 2px solid red; debug purpose */
     margin: 0 auto;
     position: relative;
+    margin-bottom: 100px;
 }
 .section-six-content{
     /* width: 1068px;
@@ -392,3 +378,50 @@ height: 464.65px;
     position: absolute;
     left:130%
 }
+
+/* section-seven-portfolio-container styles */
+
+.section-seven-portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    /* border:2px solid blue; */
+    margin: 0 auto;
+}
+.section-seven-portfolio-content{
+    text-align: left;
+}
+.section-seven-portfolio-content h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section-seven-portfolio-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.section-seven-portfolio-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.section-seven-image{
+    width: 424px;
+    height: 450px;
+}
+.section-seven-image img{
+    height: 100%;
+    width: 100%;
+}
+.portfolio-image-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px
+}
+
