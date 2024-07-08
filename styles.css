@@ -270,7 +270,7 @@ height: 464.65px;
      
     box-sizing: border-box;
     border: 15px solid rgb(255, 0, 0);
-    width: 33%;
+    width: 463px;
     height: 463px;
     border-radius: 50%;
     background-image: url('./images/midnight-party.png');
@@ -386,6 +386,7 @@ height: 464.65px;
     height: 1163px;
     /* border:2px solid blue; */
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 .section-seven-portfolio-content{
     text-align: left;
@@ -424,4 +425,82 @@ height: 464.65px;
     grid-template-columns: repeat(3,1fr);
     gap:10px
 }
+
+/* newsletter section EIGHT styles */
+
+.newsletter-container{
+    width: 1320px;
+    height: 616px;
+    /* border: 2px solid yellow; */
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 896px;
+    height: 336px;
+}
+.newsletter-content img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    /* margin-top: 10px; */
+}
+.newsletter-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.newsletter-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input-and-button-container{
+    width: 648px;
+    height: 72px;
+    /* border: 2 px solid black; */
+    /* margin: 0 auto; */
+    display: flex;
+
+}
+.text-input{
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    width: 648px;
+    height: 72px;
+    padding-left: 20px;
+
+}
+.btn-input{
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    width: 210px;
+    height: 72px;
+}
+
+
+/* footer styles */
+.footer-container{
+    width: 1320px;
+    height: 1163px;
+    border: 2px solid tomato;
+    margin: 0 auto;
+    background: rgb(7, 2, 17);
+}
+
 
