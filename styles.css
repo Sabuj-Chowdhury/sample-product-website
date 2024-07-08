@@ -47,6 +47,7 @@ body{
     /* font-family: Merriweather; */
     font-size: 72px;
     font-weight: 900;
+    text-align: center;
 
 }
 /* styles: discount section with new year image */
@@ -279,8 +280,10 @@ height: 464.65px;
     background-image: url('./images/midnight-party.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:auto;
+    
     /* gap: 10px; */
+    /* padding: 20px; */
     
 
 }
