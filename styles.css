@@ -214,10 +214,107 @@ height: 464.65px;
 }
 
 /* coming soon section styles  */
+
+/* issues with text alignment */
+/* image gap issue */
+
 .coming-soon-container{
     margin-top: 120px;
     width: 1320px;
-    height: 482px;
+    height: 463px;
     border: 2px solid orange;
     margin: 0 auto;
+    display: flex;
+}
+.section-five-content-one{
+    width: 33%;
+    height: 463px;
+    /* border: 2px solid rgb(17, 14, 111); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.section-five-content-one h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    /* text-align: center; */
+    margin-right: 220px;
+    margin-bottom: 8px;
+}
+.section-five-content-one h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    /* text-align: left; */
+    margin-right: 105px;
+    margin-bottom: 8px;
+}
+.section-five-content-one p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    /* text-align: left; */
+}
+
+
+/* ISSUE: can' make distance between the border and image */
+.section-five-img-container{
+     
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    width: 33%;
+    height: 463px;
+    border-radius: 50%;
+    background-image: url('./images/midnight-party.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* gap: 10px; */
+    
+
+}
+/* .section-five-img{
+    box-sizing: border-box;
+    background-image: url('./images/midnight-party.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+} */
+
+
+.section-five-content-two{
+    width: 33%;
+    height: 463px;
+    /* border: 2px solid rgb(159, 11, 45); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-five-content-two h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    /* margin-right: 300px; */
+    margin-bottom: 14px;
+}
+.section-five-content-two p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.section-five-content-two img{
+    width: 140px;
+    height: 140px;
 }
